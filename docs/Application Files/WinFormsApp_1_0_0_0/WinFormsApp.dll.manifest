@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="WinFormsApp.exe" version="1.0.0.0" publicKeyToken="a6f3f80f1a61648e" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="WinFormsApp.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/KzCR74T0jq+zDwlYDk+fT6u4yl02o7zMnIt/00qqog=</dsig:DigestValue>
+        <dsig:DigestValue>FThZoZj7raRfu27AL79WQlQRPChvL1Dw7k3aSTeSmdk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,22 +62,22 @@
       <dsig:DigestValue>VL27MqhPF4KjEOyO8M9vovPUNtAWdY8OR6y269hfyH0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WinFormsApp.dll" size="6576">
+  <file name="WinFormsApp.dll" size="5632">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KEFCPbQWr4odNyVJRBR2z6TK+zBL3A74kyAvtkKm7jA=</dsig:DigestValue>
+      <dsig:DigestValue>/JXxanh5eSbiYQEI5bUritsRQuFzK0tFay/WYIipw+U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WinFormsApp.exe" size="150448">
+  <file name="WinFormsApp.exe" size="149504">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>onhAxDQyhjUD5bWrOmLHBEtITZa/FkewBU1eVtGfpmw=</dsig:DigestValue>
+      <dsig:DigestValue>rhUTKPkGo1kEQuTRNlz0bYbmw4oWyxT7oWLQ9XhzzyA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="WinFormsApp.runtimeconfig.json" size="372">
@@ -89,4 +89,4 @@
       <dsig:DigestValue>HsoPDHAHCqg7tgnkt0mybctECXhDJgMnJjlHIiJKCYo=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=JP\0011176182" issuerKeyHash="3ea320c774be675f1b1cdd35ea6a8ddea005bfca" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NJlZ3t6YZxcIjXkBJrnuMcRHE9CRE12PFDYXUIw3fDM=</DigestValue></Reference></SignedInfo><SignatureValue>Aaii7qCqQ+brlfFSORY7txFUoJywNDVvYD9A+Sc3fsQ6E6WyOwle5iIWPptjveVkwVNCg2LQvWM1U4aioyUwrA/nyINbB9FFP5Ro3o9CgEPcAN+e8V7tIepzS3MwWu+j1uG/azj+/XbTxma58+/DA+VIuOqFfoDJqs3V8KuzStM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4SNxNlTuNILc408QMHgdaKPEAuEHTeE9fWOAMjiSJ/EQEXZVdVQGLxoF9gm0FnEMqxlyB+3oELptWsJBnm5UKSvBVb8Zn2b2xybbZNTOYAqhJcwcwB+PihmfQ2YC2LOgmF09bB6aoLQMgF+m0K8too7741S3dgezWBSs/ZF0IaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="337c378c501736148f5d1391d01347c431eeb92601798d08176798dede599934" Description="" Url=""><as:assemblyIdentity name="WinFormsApp.exe" version="1.0.0.0" publicKeyToken="a6f3f80f1a61648e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JP\0011176182</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GYcppKYpRuecQ28AQQ/u4ahKnhqi9XPERyOD9Wur7bw=</DigestValue></Reference></SignedInfo><SignatureValue>bOI3x4AJ/OBwU8BXHlXfxGAtBvJdJpIbvh1iFVN6Fm7UXXtr0xczobhc7C4KLzymqa89r2FiGbR9fHMUF1ZP9B/nedvCoukkH4BoX1RtRVTMy69UhjevD2Vlb+6ZCZORB+QV7i8DP22AVCw9bja3gdg6dsl1mvMY0LyLoyyK69Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4SNxNlTuNILc408QMHgdaKPEAuEHTeE9fWOAMjiSJ/EQEXZVdVQGLxoF9gm0FnEMqxlyB+3oELptWsJBnm5UKSvBVb8Zn2b2xybbZNTOYAqhJcwcwB+PihmfQ2YC2LOgmF09bB6aoLQMgF+m0K8too7741S3dgezWBSs/ZF0IaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQKmyK4DjTWJBN4gnGM2PD+DANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBQAFwAMAAwADEAMQAxADcANgAxADgAMjAeFw0yNDEyMjUwNTA1NThaFw0yNTEyMjUxMTA1NThaMCUxIzAhBgNVBAMeGgBKAFAAXAAwADAAMQAxADEANwA2ADEAOAAyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhI3E2VO40gtzjTxAweB1oo8QC4QdN4T19Y4AyOJIn8RARdlV1VAYvGgX2CbQWcQyrGXIH7egQum1awkGeblQpK8FVvxmfZvbHJttk1M5gCqElzBzAH4+KGZ9DZgLYs6CYXT1sHpqgtAyAX6bQry2ijvvjVLd2B7NYFKz9kXQhpQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFqm6iJMymw9Khv1Y6z3aRosgPpa8fWXUNiPDJ8zxkG/GA+WWG/LAVGd2FgBXTPRUnXzvqnSlh8LCBHEGjY6pm0IRcWoa9SxZ2r633ovp2EgAfDwdoSqaOieK0i/MzNr3wZYv83gYfiA7uwiqyobrep4lX+Q6WmSvxz5JtX7PFc6</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
