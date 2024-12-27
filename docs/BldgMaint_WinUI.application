@@ -1,28 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="BldgMaint_WinUI.application" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="BldgMaint_WinUI.application" version="1.0.0.1" publicKeyToken="70a72eb1bc29c542" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="BldgMaint_WinUI" asmv2:product="BldgMaint_WinUI" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <deployment install="true" mapFileExtensions="true">
-    <subscription>
-      <update>
-        <beforeApplicationStartup />
-      </update>
-    </subscription>
-    <deploymentProvider codebase="https://sekine-y.github.io/builment_clickonce_test/" />
-  </deployment>
+  <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\BldgMaint_WinUI_1_0_0_0\BldgMaint_WinUI.dll.manifest" size="60961">
-      <assemblyIdentity name="BldgMaint_WinUI.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="Application Files\BldgMaint_WinUI_1_0_0_1\BldgMaint_WinUI.dll.manifest" size="63378">
+      <assemblyIdentity name="BldgMaint_WinUI.exe" version="1.0.0.1" publicKeyToken="70a72eb1bc29c542" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cH4zgRWQADdMsfxliONThsTH+vQQMKz0K7HfusJJmfg=</dsig:DigestValue>
+        <dsig:DigestValue>5rnTMhyVPSpnrgqnp7vJCqTqhJKXkAwLJUFSvGuMKRU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-</asmv1:assembly>
+<publisherIdentity name="CN=JP\0011176186" issuerKeyHash="147400e735f2d3060afb858f4467a7b0dd620e5b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AbpOhTO7k9i0R2Hf5dVOF4HlHEsiBcdMXQylsBXP13Y=</DigestValue></Reference></SignedInfo><SignatureValue>m8JQM3xOTJcPthcFalIXOBjQ/U1bQApNIhxR16YhZTwRYvEgFs8pW3IdphEXDw0Jc/w+gdTSxmPI5Q5Bm2zKq1YKrc3Bab9VA1J07VkyOf8ZDlxSBUmoKdlRF4PROCTgtwKJmzZ/yVv0hlD5QZWBouYyZSfgtoFJfI2eQ66MDLc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tbMBAqAdl/HRZtxHVrZIuS0CcgEqXjNN2sRDCaXtoQkUP3Aul+/1R4vqX21VJbnWAZ1HCv9vapdNj1Ah52eTlu5dQXkWoMcgDVJAAmSugm4oLyZPjGIcBv9PSQ/q/4ZeDB8Az+EHyUMi9OVYtNa3mz7EQGuaNBtoz1OmWGvIvzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="76d7cf15b0a50c5d4cc705224b1ce581174ed5e5df6147b4d893bb33854eba01" Description="" Url=""><as:assemblyIdentity name="BldgMaint_WinUI.application" version="1.0.0.1" publicKeyToken="70a72eb1bc29c542" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JP\0011176186</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>s0vVWySjD/CuxZGFugvIcUnZ3PlY1wU+Ub6ksNE2rqs=</DigestValue></Reference></SignedInfo><SignatureValue>L4MNLcdnF38154PsNS0yHcLyp30QYeWUXYIiaLZvyW4U+oqt0gYQ/dkIIj1HNMgjfj9J7F3yW+a9cjVXHzk5MD+bpTg/zYErSN78bhm1yOjrG4A8xYOfni1pFvfSiiW7FFlXbL1/Zio96hs6GlGAgWtytgKBfNiors6SNoVHKBc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tbMBAqAdl/HRZtxHVrZIuS0CcgEqXjNN2sRDCaXtoQkUP3Aul+/1R4vqX21VJbnWAZ1HCv9vapdNj1Ah52eTlu5dQXkWoMcgDVJAAmSugm4oLyZPjGIcBv9PSQ/q/4ZeDB8Az+EHyUMi9OVYtNa3mz7EQGuaNBtoz1OmWGvIvzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQc56ntLCTdrNO/C4rWVI4tDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBQAFwAMAAwADEAMQAxADcANgAxADgANjAeFw0yNDEyMjYwOTAwNDdaFw0yNTEyMjYxNTAwNDdaMCUxIzAhBgNVBAMeGgBKAFAAXAAwADAAMQAxADEANwA2ADEAOAA2MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1swECoB2X8dFm3EdWtki5LQJyASpeM03axEMJpe2hCRQ/cC6X7/VHi+pfbVUludYBnUcK/29ql02PUCHnZ5OW7l1BeRagxyANUkACZK6CbigvJk+MYhwG/09JD+r/hl4MHwDP4QfJQyL05Vi01rebPsRAa5o0G2jPU6ZYa8i/NQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHY9T6x7LVfjwqXphff2Y+YIXObY98FSSNZkUS5A/hSC6qPxCw+9OYlKtfbTrvkqfC+cL593mo2DUEbMTTvE/UeskPfybFXvBsDuLsM7F5Ec4vwIC+oPTd2iBbdnqUW44Mh+2+51fAMF4VKDcU5MB5/NqUYTIpXaLz0FYfWYroxE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
